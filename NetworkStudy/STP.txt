@@ -1,0 +1,15 @@
+問１
+Switch3
+問２
+Switch1
+　F0/1　DP switch２のF0/１がRPなので
+　F0/2　RP　ショートパスコストが１００でF0/1より小さいので
+Switch2
+  F0/1　R P ショートパスコストが１１９でF0/2yより小さいので
+  F0/2　BP ルートポート、指定ポートどちらにも当てはまらないから
+Switch3
+  E0/1 DP Switch3がルートブリッチなので
+  E0/2 DP　Switch3がルートブリッチなので
+Switch4
+  E0/1　DP switch2に比べてswitch４のブリッチIDが小さいので
+  E0/2　RP　ショートパスコストが１００でE0/1より小さい。
